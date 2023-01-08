@@ -30,11 +30,15 @@ const VideoDetail = () => {
   } = videoDetail;
 
   return (
-    <Box minHeight="95vh">
+    <Box minHeight="90vh">
       <Stack direction={{ xs: "column", md: "row" }}>
         <Box flex={1}>
           <Box sx={{ width: "100%", position: "sticky", top: "86px" }}>
             <ReactPlayer
+              style={{
+                width: "auto",
+                height: "360px",
+              }}
               url={`https://www.youtube.com/watch?v=${id}`}
               className="react-player"
               controls
