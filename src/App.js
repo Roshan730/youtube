@@ -8,6 +8,7 @@ import {
   Navbar,
   Feed,
 } from "./components";
+import "./App.css";
 
 const App = () => (
   <BrowserRouter>
